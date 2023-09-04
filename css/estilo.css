@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+}
+
+header {
+  
+  background-image: linear-gradient(to right bottom, #5c7a18, #509e6e, #6cbcb4, #b0d6e0, #f0f1f2);
+  margin-bottom: 20px;
+  padding: 25px;
+  height: 150px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  font-size: 1.2em;
+
+}
+
+.listanav li {
+  display: inline;
+  padding: 10px;
+  background-image: linear-gradient(to right bottom, #2f6ee0, #5b91e8, #89b2ed, #bad2f0);
+  border-radius: 7px;
+  margin:7px;
+}
+
+a{
+  color:rgb(255, 255, 255);
+  text-decoration:none;
+}
+
+a:hover {
+  
+ /* color:#5c7a18;*/
+  color:black;
+    }
+    
+  
+
+body{
+  background-color: rgba(128, 128, 128, 0.029);
+}
+main {
+  width: 80%;
+ /* height: 300px;*/
+ height: auto;
+  margin: auto;
+ 
+}
+
+.margen {
+  margin: 25px;
+}
+
+footer {
+ 
+ background-image: radial-gradient(circle, #5c7a18, #509e6e, #6cbcb4, #b0d6e0, #f0f1f2);
+  color: aliceblue;
+  height: 50px;
+ /* display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+
+
+.foto {
+  width: 150px;
+  border-radius: 75px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.encabezado_izq {
+  float: left;
+  margin-right: 25px;
+}
+
+.encabezado_der {
+  width: 60%;
+  flex: auto;
+  color: aliceblue;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconos {
+  margin-left: 15px;
+  margin-top: 15px;
+  ;
+}
+#botonMas{
+  margin:15px;
+}
+.ampliar{
+  display:none;
+}
